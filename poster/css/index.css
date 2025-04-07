@@ -1,0 +1,170 @@
+/** SE REALIZO EN 1.200 PX DE PANTALLA  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section-1 {
+    background-image: url(../images/background.png);
+    height: 1200px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.section-1 p {
+    font-size: 30px;
+    color: black;
+    text-align: start;
+    margin-left: 70px;
+    width: 100px;
+    height: 80px;
+    align-content: center;
+}
+
+.section-1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    font-size: larger;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+.section-1 ul li {
+    margin: 0 30px;
+}
+
+.section-1-text {
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.section-1-text h1 {
+    font-size: 150px;
+    color: white;
+    font-weight: 900;
+}
+
+.section-1-text H3 {
+    font-size: 20px;
+    color: white;
+}
+
+.section-1-text button {
+    background-color: #e4faf3;
+    color: black;
+    border: none;
+    padding: 10px 37px;
+    font-size: 20px;
+    margin-top: 130px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section-2 {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-2-text{
+    width: 800px;
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #e4faf3;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+img {
+    width: 125px;
+}
+
+section-3-text {
+    width: 800px;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+
+.article-tools{
+   text-align: center;
+   gap: 5px;
+}
+
+.article-tools p{
+    font-size: 18px;
+    margin: 10px 10px;
+}
+
+.article-tools button {
+    background-color: #f9a125;
+    color: black;
+    border: none;
+    padding: 10px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-4 {
+    display: flex;
+    height: 400px;
+    background-image: url(../images/bg-grid2.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    gap: 50px;
+    
+}
+
+.imagen-fin {
+    width: 300px;
+    height: 240px;
+    border-radius: 5px;
+    margin-top: 86px;
+    margin-right: 100px;
+}
+
+.section-4-text {
+    margin-left: 70px;
+    align-content: center;
+}
+
+.section-4-text h2 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.section-5 {
+    background-color: rgb(55, 55, 55);
+ 
+}
+
+.section-5 ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+}
+
